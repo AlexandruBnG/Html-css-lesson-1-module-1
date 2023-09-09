@@ -1,6 +1,6 @@
 :root {
     --link-color: #fff;
-    --heading-font-family:"Relway", sans-serif;
+    --heading-font-family: "Relway", sans-serif;
 }
 
 .global-header {
@@ -8,11 +8,11 @@
 }
 
 .global-header .main-navigation a:link,
-.global-header .main-navigation a:visited{
-    color: var{var(--link-color)};
+.global-header .main-navigation a:visited {
+    color: var(--link-color);
 }
 
-.global-header .main-navigation a;hover {
+.global-header .main-navigation a:hover {
     color: #ff6c00;
 }
 
